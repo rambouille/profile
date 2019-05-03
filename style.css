@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+
+body {
+  background-color: rgb(230,230,230);
+  font-family: Roboto;
+  color: rgb(20,20,20);
+  font-size: 24px;
+}
+
+h1, h2 {
+  color: #575F7D;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+a {
+  color: #3ECF8E;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+
+img {
+  width: 20vw;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.container {
+  width: 900px;
+  margin: 24px auto;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  body {
+    font-size: 20px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  body {
+    font-size: 16px;
+  }
+}
+
+.card-white {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  margin: 24px auto;
+  padding: 16px 32px;
+  text-align: center;
+  color: rgb(50,50,50);
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+}
+
+.btn {
+  margin: 32px 16px;
+}
+
+.btn a {
+  padding: 16px 16px;
+  background-color: #3ECF8E;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 7px;
+}
+.btn a:hover {
+  padding: 16px 16px;
+  background-color: white;
+  color: #3ECF8E;
+  border: 2px solid #3ECF8E;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline a {
+  font-size: 48px
+}
+.list-inline a:hover {
+  opacity: 0.8;
+}
